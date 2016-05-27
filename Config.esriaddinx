@@ -1,0 +1,22 @@
+﻿<ESRI.Configuration xmlns="http://schemas.esri.com/Desktop/AddIns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Extension License Manager</Name>
+  <AddInID>{e1c0517f-9b67-4215-a14c-eac4fc1afb73}</AddInID>
+  <Description></Description>
+  <Version>1.0</Version>
+  <Image>Images\ExtLicMgr.png</Image>
+  <Author>GIS Unit</Author>
+  <Company>Division of Information Technology, State Water Resources Control Board</Company>
+  <Date>4/6/2016</Date>
+  <Targets>
+    <Target name="Desktop" version="10.2" />
+  </Targets>
+  <AddIn language="CLR4.0" library="ExtensionLicenseManager.dll" namespace="ExtensionLicenseManager">
+    <ArcMap>
+      <Extensions>
+        <Extension id="ExtensionLicenseManager" class="ExtensionLicenseManager" autoLoad="true">
+          <Description>Add-in class for clearing selected extension licenses upon map document opening.</Description>
+        </Extension>
+      </Extensions>
+    </ArcMap>
+  </AddIn>
+</ESRI.Configuration>
