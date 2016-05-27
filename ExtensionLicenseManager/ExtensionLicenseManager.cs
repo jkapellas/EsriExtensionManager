@@ -20,7 +20,8 @@ namespace ExtensionLicenseManager
         void Events_Document()
         {
             var extMgr = ArcMap.Application as IExtensionManager;
-            var extensions = new[] { "Spatial Analyst", "3D Analyst", "Geostatistical Analyst", "Esri Publisher Extension" };
+            //var extensions = new[] { "Spatial Analyst", "3D Analyst", "Geostatistical Analyst", "Esri Publisher Extension" };
+            var extensions = new[] { "{3C5059FE-9F15-401A-94ED-EED914D73E3E}", "{94305472-592E-11D4-80EE-00C04FA0ADF8}", "{DE0502C4-8D34-11D3-A63A-0008C7BF3347}", "{8AEE0DE1-535C-4788-95C8-1659444D4C02}" };
 
             foreach (var name in extensions)
             {
