@@ -23,7 +23,4 @@ Geostatistical Analyst and Publisher extensions.
 
 Comments, suggestions, bugfixes and enhancements are quite welcome. I hope you find this Add-in useful.
 
-Jeff Kapellas
-Division of Information Technology
-California Water Resources Control Board
-jeff.kapellas@waterboards.ca.gov
+
