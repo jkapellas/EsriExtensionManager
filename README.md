@@ -21,6 +21,8 @@ Rebuild and install the Add-in as per ESRI instructions.
 The Extension License Manager has been tested in ArcMap 10.2.1, 10.2.2 and 10.3.1, and with the Spatial Analyst, 3D Analyst, 
 Geostatistical Analyst and Publisher extensions.
 
+I would like to thank Freddie Gibson of ESRI Support Services for his invaluable assistance in the initial development of this add-in.
+
 Comments, suggestions, bugfixes and enhancements are quite welcome. I hope you find this Add-in useful.
 
 
